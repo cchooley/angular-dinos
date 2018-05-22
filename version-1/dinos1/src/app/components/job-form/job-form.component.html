@@ -1,0 +1,12 @@
+<aside id="side-bar">
+    <h3>Add a Job</h3>
+    <form #jobForm="ngForm">
+        <label for="title">Title</label>
+        <input type="text" name="title" id="jobTitle" [(ngModel)]="model.title">
+        <label for="pay">Compensation</label>
+        <input type="text" name="pay" id="jobPay" [(ngModel)]="model.pay">
+        <label for="description">Description</label>
+        <textarea for="description" name="description" rows="8" cols="40" id="jobDesc" [(ngModel)]="model.description"></textarea>
+        <input type="submit" name="submit" value="Submit" id="submitJob" (click)="onClick()">
+    </form>
+</aside>

@@ -1,0 +1,8 @@
+footer small {
+    margin: 0 auto;
+}
+small {
+    color: black;
+    font-size: .5rem;
+    margin-left: 10px;
+}

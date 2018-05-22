@@ -1,0 +1,8 @@
+<form id="application-input">
+  <label>Apply Here: </label>
+  <textarea id="application-text" name="input" rows="8" cols="100" [(ngModel)]="model.description"></textarea>
+  <input id="form-submit" type="submit" value="Submit" (click)="submitData()">
+</form>
+<p id="message" *ngIf="submitted">Your application was submitted!</p>
+<button id="preview-toggle" (click)="condition = !condition">Show Preview</button>
+<app-preview [textContent]="model.description" *ngIf="condition"></app-preview>

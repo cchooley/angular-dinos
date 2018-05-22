@@ -1,0 +1,12 @@
+html {
+    display: block;
+}
+
+body {
+    margin: 0 30px 0 30px;
+    padding: 0;
+    font-family: sans-serif;
+    color: #1B997A;
+    display: grid;
+    grid-template-rows: 15% 75% 10%;
+}

@@ -1,0 +1,7 @@
+main section {
+    grid-column: 2/3;
+}
+
+h4 {
+    font-weight: bold;
+}

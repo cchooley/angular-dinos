@@ -1,0 +1,82 @@
+ul {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.profile-card {
+    border-radius: 6px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+
+div {
+    display: flex;
+    flex-flow: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+.profile-header {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+header {
+    grid-row: 1 / 2;
+    grid-template-columns: 25% 50% 15%;
+    grid-template-rows: 50% 50%;
+    padding-top: 10px;
+}
+
+.profile-header img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid darkgrey;
+    margin: 0 10px 0 10px;
+}
+
+header img {
+    grid-row: 1/3;
+    grid-column: 1/2;
+    height: 100px;
+    width: auto;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+
+.skills-container {
+    padding: 0 20px 0 20px;
+    display: grid;
+    grid-gap: 10px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+h4 {
+    display: block;
+    -webkit-margin-before: 1.33em;
+    -webkit-margin-after: 1.33em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+.skills-list {
+    list-style: none;
+}

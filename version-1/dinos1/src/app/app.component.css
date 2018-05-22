@@ -1,0 +1,13 @@
+main {
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 5% 42.5% 5% 42.5% 5%;
+}
+
+app-job-list {
+    grid-column: 2/3;
+}
+
+app-job-form {
+    grid-column: 4/5;
+}

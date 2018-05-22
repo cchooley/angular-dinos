@@ -1,0 +1,28 @@
+form {
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 30px;
+}
+
+label {
+    cursor: default;
+}
+
+textarea {
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+    padding: 2px;
+}
+
+#form-submit {
+  margin-top: 0px;
+}

@@ -1,0 +1,16 @@
+<ul id="profiles">
+    <li *ngFor="let dino of dinos">
+        <div class="profile-card">
+            <header class="profile-header" (click)="dino.hide = !dino.hide">
+                <img src={{dino.image}}>
+                <h2>{{dino.name}}</h2>
+            </header>
+            <section class="skills-container" *ngIf="dino.hide">
+                <h4>Skills</h4>
+                <ul class="skills-list">
+                    <li *ngFor="let skills of dino.skills">{{skills}}</li>
+                </ul>
+            </section>
+        </div>
+    </li>
+</ul>

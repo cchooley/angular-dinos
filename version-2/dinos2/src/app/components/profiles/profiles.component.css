@@ -1,0 +1,17 @@
+section {
+    padding: 0 20px 0 20px;
+    display: grid;
+    grid-gap: 10px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
