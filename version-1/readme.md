@@ -22,6 +22,6 @@
 2. Host your app locally on port `8080`.
 3. Navigate to this folder and run `npm test`.
 
-#### Deployed Link
+#### Deployed Link: https://angular1-216cb.firebaseapp.com/
 
-#### Framework of choice
+#### Framework of choice: Angular
