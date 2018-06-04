@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, Output } from '@angular/core';
 import { HttpService } from '../../services/http.service';
-import { Job } from '../../models/job';
+import { Display } from '../../models/display';
 
 @Component({
   selector: 'app-details',
@@ -8,15 +8,15 @@ import { Job } from '../../models/job';
   styleUrls: ['./details.component.css']
 })
 export class DetailsComponent implements OnInit {
-  jobs: Array<Job> = [];
+  display: Display
 
   constructor(
     private _httpService: HttpService,
   ) { }
 
   ngOnInit() {
-    this._httpService.getJobs().subscribe(jobs => {
-      this.jobs = jobs;
+    this._httpService.getDisplay().subscribe(data => {
+      this.display = data;
     })
 
   }

@@ -8,6 +8,8 @@ import { Job } from '../../models/job';
 })
 export class InputComponent implements OnInit {
   submitted = false;
+  condition = false;
+
 
   model: Job = {
     id: 0,
